@@ -66,8 +66,8 @@ int main()
     c1.openBoot();
 
     b1.start();
-    b1.helmetReminder();
+     b1.helmetReminder();
 
 
     return 0;
-}
+            }

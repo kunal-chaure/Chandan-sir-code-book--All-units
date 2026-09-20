@@ -49,23 +49,23 @@ private:
     int team;
 
 public:
-    Manager(string n, int i, int t) : Employee(n, i)
+     Manager(string n, int i, int t) : Employee(n, i)
     {
         team = t;
     }
 
     void showManager()
     {
-        showPerson();
+              showPerson();
         showEmployee();
-        cout << "Team Size: " << team << endl;
+            cout << "Team Size: " << team << endl;
     }
 };
 
 
 int main()
 {
-    Manager m1("kunal", 68, 8);
+      Manager m1("kunal", 68, 8);
 
     m1.showManager();
 

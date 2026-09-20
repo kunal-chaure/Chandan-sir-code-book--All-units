@@ -32,11 +32,11 @@ protected:
 public:
 
     Sports(int s)
-    {
+         {
         sports = s;
     }
 
-    void showSports()
+        void showSports()
     {
         cout << "Sports Marks: " << sports << endl;
     }
@@ -65,7 +65,7 @@ int main()
 
 
     s1.showAcademic();
-    s1.showSports();
+         s1.showSports();
     s1.showTotal();
 
 
