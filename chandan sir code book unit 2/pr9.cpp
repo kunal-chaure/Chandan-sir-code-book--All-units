@@ -41,7 +41,7 @@ public:
 
 int main()
 {
-    Student s1("Kiran", 24);
+    Student s1("anil dada", 24);
 
 
     s1.showDetails();
